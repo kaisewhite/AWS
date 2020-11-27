@@ -1,0 +1,22 @@
+{
+  "Resources": {
+    "devvpc": {
+      "Type": "AWS::EC2::VPC",
+      "Properties": {
+        "CidrBlock": "10.1.0.0/16",
+        "EnableDnsHostnames": true,
+        "EnableDnsSupport": true,
+        "InstanceTenancy": "default",
+        "Tags": [
+          {
+            "Key": "Application",
+            "Value": "Cyber Eval"
+          }
+        ]
+      },
+      "Metadata": {
+        "aws:cdk:path": "VPCStack/dev-vpc"
+      }
+    }
+  }
+}

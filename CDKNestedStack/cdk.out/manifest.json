@@ -1,0 +1,306 @@
+{
+  "version": "7.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkStackVPCStackF5EEDFC1": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/us-gov-west-1",
+      "properties": {
+        "templateFile": "CdkStackVPCStackF5EEDFC1.template.json"
+      },
+      "metadata": {
+        "/CdkStack/VPCStack/dev-vpc": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "devvpc",
+            "trace": [
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/modules/vpc/index.ts:11:22",
+              "Array.forEach (<anonymous>)",
+              "new VPCStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/modules/vpc/index.ts:10:12)",
+              "new CdkStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/lib/cdk-stack.ts:20:5)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Module.m._compile (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "main (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ]
+      }
+    },
+    "CdkStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkStack.template.json"
+      },
+      "metadata": {
+        "/CdkStack": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "CdkStackCodeCommit2AA823E6.nested.template.json",
+              "id": "46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b",
+              "packaging": "file",
+              "sourceHash": "46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b",
+              "s3BucketParameter": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3Bucket74329697",
+              "s3KeyParameter": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3VersionKey675847A5",
+              "artifactHashParameter": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bArtifactHash6238800F"
+            },
+            "trace": [
+              "ConstructNode.addMetadata (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/construct-compat.ts:431:92)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:160:23)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "CodeCommitStack._prepareTemplateAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/nested-stack.ts:198:48)",
+              "defineNestedStackAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:69:10)",
+              "Object.prepareApp (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:43:7)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/CodeCommit/cybereval-auth-CodeCommitRepository": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "cyberevalauthCodeCommitRepository",
+            "trace": [
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/modules/codecommit/index.ts:15:36",
+              "Array.forEach (<anonymous>)",
+              "new CodeCommitStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/modules/codecommit/index.ts:14:12)",
+              "new CdkStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/lib/cdk-stack.ts:15:5)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Module.m._compile (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "main (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/CodeCommit/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:51:24)",
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/CodeCommit/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:60:27)",
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/CodeCommit.NestedStack/CodeCommit.NestedStackResource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CodeCommitNestedStackCodeCommitNestedStackResourceECC24325",
+            "trace": [
+              "new NestedStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/nested-stack.ts:122:21)",
+              "new CodeCommitStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/modules/codecommit/index.ts:9:5)",
+              "new CdkStack (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/lib/cdk-stack.ts:15:5)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/bin/cdk.ts:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Module.m._compile (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "main (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:956:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:973:10)",
+              "Module.load (internal/modules/cjs/loader.js:812:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:724:14)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:1025:10)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkStack/CDKMetadata/Default": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadata",
+            "trace": [
+              "new MetadataResource (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:51:24)",
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/CDKMetadata/Condition": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "CDKMetadataAvailable",
+            "trace": [
+              "new MetadataResource (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/metadata-resource.ts:60:27)",
+              "/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:140:5",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:200:5)",
+              "visit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:196:5)",
+              "injectMetadataResources (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:131:3)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:18:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3Bucket74329697",
+            "trace": [
+              "new FileAssetParameters (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:16:32)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "CodeCommitStack._prepareTemplateAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/nested-stack.ts:198:48)",
+              "defineNestedStackAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:69:10)",
+              "Object.prepareApp (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:43:7)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3VersionKey675847A5",
+            "trace": [
+              "new FileAssetParameters (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:21:31)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "CodeCommitStack._prepareTemplateAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/nested-stack.ts:198:48)",
+              "defineNestedStackAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:69:10)",
+              "Object.prepareApp (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:43:7)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ],
+        "/CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bArtifactHash6238800F",
+            "trace": [
+              "new FileAssetParameters (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/asset-parameters.ts:26:34)",
+              "LegacyStackSynthesizer.doAddFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:147:16)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:71:19)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "LegacyStackSynthesizer.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack-synthesizers/legacy.ts:75:25)",
+              "CdkStack.addFileAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stack.ts:651:29)",
+              "CodeCommitStack._prepareTemplateAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/nested-stack.ts:198:48)",
+              "defineNestedStackAsset (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:69:10)",
+              "Object.prepareApp (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/prepare-app.ts:43:7)",
+              "Object.synthesize (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/private/synthesis.ts:24:3)",
+              "App.synth (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/stage.ts:188:23)",
+              "process.<anonymous> (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/@aws-cdk/core/lib/app.ts:123:45)",
+              "Object.onceWrapper (events.js:300:26)",
+              "process.emit (events.js:215:7)",
+              "process.EventEmitter.emit (domain.js:476:20)",
+              "process.emit (/Users/kaisewhite/Google Drive/Employment/Jacobs/CDK/node_modules/source-map-support/source-map-support.js:495:21)",
+              "process.topLevelDomainCallback (domain.js:131:23)"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

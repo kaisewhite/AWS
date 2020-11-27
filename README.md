@@ -1,6 +1,11 @@
-## AWS Projects
+## AWS
 
-| AWS Resource           | Description / Link                                                                                               |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| Security Token Service | [Using STS to access your AWS AccountID](https://github.com/kaisewhite/AWS/tree/master/SecurityTokenService)     |
-| Parameter Store        | [Accessing SSM Parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore) |
+### Overview
+
+AWS's API documentation can sometimes be like peeling an onion so here are a few code snippets of how to access different resources in AWS using languages like JavaScript, TypeScript, NodeJS, Python, etc....
+
+| AWS Resource           | Description / Link                                                                                               | Langauge   |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------- |
+| Security Token Service | [Using STS to access your AWS AccountID](https://github.com/kaisewhite/AWS/tree/master/SecurityTokenService)     | NodeJS     |
+| Parameter Store        | [Accessing SSM Parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore) | NodeJS     |
+| CDK Nested Stack       |                                                                                                                  | TypeScript |

@@ -1,0 +1,178 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "CdkStack": {
+        "id": "CdkStack",
+        "path": "CdkStack",
+        "children": {
+          "CodeCommit": {
+            "id": "CodeCommit",
+            "path": "CdkStack/CodeCommit",
+            "children": {
+              "cybereval-auth-CodeCommitRepository": {
+                "id": "cybereval-auth-CodeCommitRepository",
+                "path": "CdkStack/CodeCommit/cybereval-auth-CodeCommitRepository",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::CodeCommit::Repository",
+                  "aws:cdk:cloudformation:props": {
+                    "repositoryName": "cybereval-auth",
+                    "repositoryDescription": "Cyber Eval Auth Server"
+                  }
+                }
+              },
+              "CDKMetadata": {
+                "id": "CDKMetadata",
+                "path": "CdkStack/CodeCommit/CDKMetadata",
+                "children": {
+                  "Default": {
+                    "id": "Default",
+                    "path": "CdkStack/CodeCommit/CDKMetadata/Default"
+                  },
+                  "Condition": {
+                    "id": "Condition",
+                    "path": "CdkStack/CodeCommit/CDKMetadata/Condition"
+                  }
+                }
+              }
+            }
+          },
+          "CodeCommit.NestedStack": {
+            "id": "CodeCommit.NestedStack",
+            "path": "CdkStack/CodeCommit.NestedStack",
+            "children": {
+              "CodeCommit.NestedStackResource": {
+                "id": "CodeCommit.NestedStackResource",
+                "path": "CdkStack/CodeCommit.NestedStack/CodeCommit.NestedStackResource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::CloudFormation::Stack",
+                  "aws:cdk:cloudformation:props": {
+                    "templateUrl": {
+                      "Fn::Join": [
+                        "",
+                        [
+                          "https://s3.",
+                          {
+                            "Ref": "AWS::Region"
+                          },
+                          ".",
+                          {
+                            "Ref": "AWS::URLSuffix"
+                          },
+                          "/",
+                          {
+                            "Ref": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3Bucket74329697"
+                          },
+                          "/",
+                          {
+                            "Fn::Select": [
+                              0,
+                              {
+                                "Fn::Split": [
+                                  "||",
+                                  {
+                                    "Ref": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3VersionKey675847A5"
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "Fn::Select": [
+                              1,
+                              {
+                                "Fn::Split": [
+                                  "||",
+                                  {
+                                    "Ref": "AssetParameters46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9bS3VersionKey675847A5"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "VPCStack": {
+            "id": "VPCStack",
+            "path": "CdkStack/VPCStack",
+            "children": {
+              "dev-vpc": {
+                "id": "dev-vpc",
+                "path": "CdkStack/VPCStack/dev-vpc",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::EC2::VPC",
+                  "aws:cdk:cloudformation:props": {
+                    "cidrBlock": "10.1.0.0/16",
+                    "enableDnsHostnames": true,
+                    "enableDnsSupport": true,
+                    "instanceTenancy": "default",
+                    "tags": [
+                      {
+                        "key": "Application",
+                        "value": "Cyber Eval"
+                      }
+                    ]
+                  }
+                }
+              },
+              "CDKMetadata": {
+                "id": "CDKMetadata",
+                "path": "CdkStack/VPCStack/CDKMetadata"
+              }
+            }
+          },
+          "CDKMetadata": {
+            "id": "CDKMetadata",
+            "path": "CdkStack/CDKMetadata",
+            "children": {
+              "Default": {
+                "id": "Default",
+                "path": "CdkStack/CDKMetadata/Default"
+              },
+              "Condition": {
+                "id": "Condition",
+                "path": "CdkStack/CDKMetadata/Condition"
+              }
+            }
+          },
+          "AssetParameters": {
+            "id": "AssetParameters",
+            "path": "CdkStack/AssetParameters",
+            "children": {
+              "46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b": {
+                "id": "46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b",
+                "path": "CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b",
+                "children": {
+                  "S3Bucket": {
+                    "id": "S3Bucket",
+                    "path": "CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/S3Bucket"
+                  },
+                  "S3VersionKey": {
+                    "id": "S3VersionKey",
+                    "path": "CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/S3VersionKey"
+                  },
+                  "ArtifactHash": {
+                    "id": "ArtifactHash",
+                    "path": "CdkStack/AssetParameters/46bfa398f03a25db4ed0385562aaea0b92dcd89d06f08916acec6dca67c90c9b/ArtifactHash"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
