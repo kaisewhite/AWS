@@ -29,8 +29,8 @@ Project Structure
 
 | File/Folder                     | Description                                                                                 |
 | ------------------------------- | ------------------------------------------------------------------------------------------- |
-| `modules/{AWSService}/index.ts` | Parent Folder to store individual stacks for each AWS resource                              |
+| `modules/{AWSService}/index.ts` | Used to define the individual stacks for each AWS service to be created                     |
 | `parameters/index.ts`           | This file will define all parameters for each AWS service                                   |
 | `env.ts`                        | Stores global variables to be called throughout the project                                 |
-| `buildspec.yaml`                | Buildspec file which will be needed to run this project inside AWS Codebuild                |
+| `buildspec.yaml`                | This file is needed if we want to run this project inside of Pipeline using AWS Codebuild   |
 | `cdk.json`                      | Tells the CDK Toolkit how to execute your app and defines any additional plugins to be used |
