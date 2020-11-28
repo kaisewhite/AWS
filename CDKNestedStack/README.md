@@ -27,6 +27,10 @@ npm install -g aws-cdk
 
 Project Structure
 
-| File/Folder | Description                                   |
-| ----------- | --------------------------------------------- |
-| `cdk.json`  | Tells the CDK Toolkit how to execute your app |
+| File/Folder                     | Description                                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------------------- |
+| `modules/{AWSService}/index.ts` | Parent Folder to store individual stacks for each AWS resource                              |
+| `parameters/index.ts`           | This file will define all parameters for each AWS service                                   |
+| `env.ts`                        | Stores global variables to be called throughout the project                                 |
+| `buildspec.yaml`                | Buildspec file which will be needed to run this project inside AWS Codebuild                |
+| `cdk.json`                      | Tells the CDK Toolkit how to execute your app and defines any additional plugins to be used |
