@@ -17,17 +17,17 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 - [This package provides a simple method for pushing and pulling from AWS CodeCommit](https://github.com/aws/git-remote-codecommit)
 - [A credential helper for the Docker daemon that makes it easier to use Amazon Elastic Container Registry](https://github.com/awslabs/amazon-ecr-credential-helper)
 
-## How to clone easily clone CodeCommit Repos
+## How to easily clone CodeCommit Repos
 
 Install [AWS git-remote-commit](https://github.com/aws/git-remote-codecommit)
 
-Run the following command:
+After the installation you can use the following command to clone any repo:
 
 ```
 git clone codecommit://${PROFILE}@${REPOISTORY_NAMEE}
 ```
 
-## How to build and pull/push ECR images using different accounts
+## How to build/pull/push ECR images using different accounts
 
 Install [amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper)
 
