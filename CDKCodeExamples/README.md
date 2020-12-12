@@ -15,3 +15,23 @@ s3.Bucket(self,"BuildArtifactBucket",
         removal_policy=core.RemovalPolicy.DESTROY)
 
 ```
+
+#### aws_cdk.aws_s3.BlockPublicAccess
+
+```
+        block_public_access=s3.BlockPublicAccess(block_public_acls=True, block_public_policy=True, ignore_public_acls=True),
+```
+
+#### aws_cdk.s3.CorsRule
+
+```
+cors=[s3.CorsRule(allowed_methods=[
+            s3.HttpMethods.DELETE,
+            s3.HttpMethods.POST,
+            s3.HttpMethods.PUT,
+            s3.HttpMethods.GET,
+            s3.HttpMethods.HEAD],
+            allowed_origins=["*"],
+            max_age=3000)]
+        )]
+```
