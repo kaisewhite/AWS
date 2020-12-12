@@ -4,6 +4,4 @@ Reading the AWS CDK documention can sometimes be similar to peeling an onion. I'
 
 ### S3
 
-#### class `aws_cdk.aws_s3.Bucket`
-
-[aws_cdk.aws_s3.Bucket](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-s3.Bucket.html)
+#### class [aws_cdk.aws_s3.Bucket](https://docs.aws.amazon.com/cdk/api/latest/docs/@aws-cdk_aws-s3.Bucket.html)
