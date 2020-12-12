@@ -8,7 +8,7 @@ Reading the AWS CDK documention can sometimes be similar to peeling an onion. I'
 
 ```
 s3.Bucket(self,"BuildArtifactBucket",
-        bucket_name=f'nmls-app-react-artifact-{branch}-{account}-{region}',
+        bucket_name='BRANCH_NAME',
         versioned=True,
         block_public_access=s3.BlockPublicAccess(block_public_acls=True, block_public_policy=True, ignore_public_acls=True),
         encryption=s3.BucketEncryption.S3_MANAGED,
@@ -16,10 +16,24 @@ s3.Bucket(self,"BuildArtifactBucket",
 
 ```
 
+#### [aws_cdk.aws_s3.BucketEncryption]()
+
+```
+s3.BucketEncryption.S3_MANAGED
+```
+
+#### [aws_cdk.core.RemovalPolicy]()
+
+Adding the
+
+```
+core.RemovalPolicy.DESTROY
+```
+
 #### aws_cdk.aws_s3.BlockPublicAccess
 
 ```
-        block_public_access=s3.BlockPublicAccess(block_public_acls=True, block_public_policy=True, ignore_public_acls=True),
+block_public_access=s3.BlockPublicAccess(block_public_acls=True, block_public_policy=True, ignore_public_acls=True),
 ```
 
 #### aws_cdk.s3.CorsRule
