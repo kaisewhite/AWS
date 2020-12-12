@@ -4,16 +4,18 @@
 
 AWS's API documentation can sometimes be like peeling an onion so here are a few code snippets of how to access different resources in AWS using languages like JavaScript, TypeScript, NodeJS, Python, etc....
 
-| AWS Resource            | Description / URL                                                                                                                    | Langauge     |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
-| Athena                  | [How to insert AWS Athena results into a MySQL database]()                                                                           | `Python`     |
-| Buildspec               | [This folder contains different buildspec.yaml files for codebuild projects]()                                                       | `yaml`       |
-| Cloud Development Kit   | [How to create nested stacks using AWS Cloud Development kit](https://github.com/kaisewhite/AWS/tree/master/CDKNestedStack)          | `TypeScript` |
-| Cognito & ReactJS       | [How to use Cognito for authenication in a ReactJS Application](https://github.com/kaisewhite/AWS/tree/master/Cognito-ReactJS)       | `ReactJS`    |
-| Security Token Service  | [Using STS to access your AWS AccountID](https://github.com/kaisewhite/AWS/tree/master/SecurityTokenService)                         | `NodeJS`     |
-| Parameter Store         | [Accessing SSM parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore)                     | `NodeJS`     |
-| Lambda & RDS MSSQL      | [Lambda post authentication trigger inserts data into SQL Server Database](https://github.com/kaisewhite/AWS/tree/master/Lambda-RDS) | `NodeJS`     |
-| Lambda, Athena, & MySQL | [Insert Athena query results into MySQL database](https://github.com/kaisewhite/AWS/tree/master/LambdaAthenaMySQL)                   | `Python`     |
+| AWS Resource               | Description / URL                                                                                                                    | Langauge     |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
+| Athena                     | [How to insert AWS Athena results into a MySQL database]()                                                                           | `Python`     |
+| Buildspec                  | [This folder contains different buildspec.yaml files for codebuild projects]()                                                       | `yaml`       |
+| Cloud Development Kit      | [How to create nested stacks using AWS Cloud Development kit](https://github.com/kaisewhite/AWS/tree/master/CDKNestedStack)          | `TypeScript` |
+| Cognito & ReactJS          | [How to use Cognito for authenication in a ReactJS Application](https://github.com/kaisewhite/AWS/tree/master/Cognito-ReactJS)       | `ReactJS`    |
+| Security Token Service     | [Using STS to access your AWS AccountID](https://github.com/kaisewhite/AWS/tree/master/SecurityTokenService)                         | `NodeJS`     |
+| Parameter Store            | [Accessing SSM parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore)                     | `NodeJS`     |
+| Lambda & RDS MSSQL         | [Lambda post authentication trigger inserts data into SQL Server Database](https://github.com/kaisewhite/AWS/tree/master/Lambda-RDS) | `NodeJS`     |
+| Lambda, Athena, & MySQL    | [Insert Athena query results into MySQL database](https://github.com/kaisewhite/AWS/tree/master/LambdaAthenaMySQL)                   | `Python`     |
+| CW Synthetics Canaries CDK | [Deploying CloudWatch Synthetics Canaries using CDK](https://github.com/kaisewhite/AWS/tree/master/CDKCloudWatchSyntheticCanarys)    | `TypeScript` |
+| CDK (Python)               | [CDK Code Examples/Snippets](https://github.com/kaisewhite/AWS/tree/master/CDKCodeExamples)                                          | `TS/Python`  |
 
 ## Resources
 

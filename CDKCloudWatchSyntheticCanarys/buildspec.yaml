@@ -1,0 +1,24 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      # Installs the npm dependencies as defined by the `package.json` file
+      # present in the root directory of the package
+      # (`cdk init app --language=typescript` would have created one for you)
+      - npm install
+      #- npm install -g aws-cdk
+      #- npm install -g typescript
+      - cdk --version
+  build:
+    commands:
+      # Builds the CDK App so it can be synthesized
+      - npm run build
+      # Synthesizes the CDK App and puts the resulting artifacts into `dist`
+      - npm run cdk synth -- -o dist
+      - npm run cdk ls -- -o dist
+      # Deploys the CDK app by targeting the artifacts in `dist`
+      - npm run cdk deploy -- -o dist --all
+artifacts:
+  # The output artifact is all the files in the `dist` directory
+  base-directory: dist
+  files: '**/*'
