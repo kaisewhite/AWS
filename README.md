@@ -7,7 +7,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | AWS Resource               | Description / URL                                                                                                                    | Langauge     |
 | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------ |
 | Athena                     | [How to insert AWS Athena results into a MySQL database]()                                                                           | `Python`     |
-| Buildspec                  | [This folder contains different buildspec.yaml files for codebuild projects]()                                                       | `yaml`       |
+| Buildspec.yaml             | [Several buildspec.yaml files for different codebuild projects](https://github.com/kaisewhite/AWS/tree/master/Buildspec)             | `yaml`       |
 | CDK (Python)               | [CDK Code Examples/Snippets](https://github.com/kaisewhite/AWS/tree/master/CDKCodeExamples)                                          | `TS/Python`  |
 | CDK (Nested Stacks)        | [How to create nested stacks using AWS Cloud Development kit](https://github.com/kaisewhite/AWS/tree/master/CDKNestedStack)          | `TypeScript` |
 | CDK (Synthetic Canaries)   | [Deploying CloudWatch Synthetics Canaries using CDK](https://github.com/kaisewhite/AWS/tree/master/CDKCloudWatchSyntheticCanarys)    | `TypeScript` |
@@ -16,23 +16,13 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | Parameter Store            | [Accessing SSM parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore)                     | `NodeJS`     |
 | Lambda & RDS MSSQL         | [Lambda post authentication trigger inserts data into SQL Server Database](https://github.com/kaisewhite/AWS/tree/master/Lambda-RDS) | `NodeJS`     |
 | Lambda, Athena, & MySQL    | [Insert Athena query results into MySQL database](https://github.com/kaisewhite/AWS/tree/master/LambdaAthenaMySQL)                   | `Python`     |
-| CodeCommit                 |                                                                                                                                      | ``           |
+| CodeCommit                 | [CodeCommit Resources](https://github.com/kaisewhite/AWS/tree/master/CodeCommit)                                                     | ``           |
 | Elastic Container Registry |                                                                                                                                      | ``           |
 
 ## Resources
 
 - [This package provides a simple method for pushing and pulling from AWS CodeCommit](https://github.com/aws/git-remote-codecommit)
 - [A credential helper for the Docker daemon that makes it easier to use Amazon Elastic Container Registry](https://github.com/awslabs/amazon-ecr-credential-helper)
-
-## How to easily clone CodeCommit Repos
-
-Install [AWS git-remote-commit](https://github.com/aws/git-remote-codecommit)
-
-After the installation you can use the following command to clone any repo:
-
-```
-git clone codecommit://${PROFILE}@${REPOISTORY_NAMEE}
-```
 
 ## How to build/pull/push ECR images using different accounts
 
