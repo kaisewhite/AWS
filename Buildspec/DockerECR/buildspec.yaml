@@ -9,7 +9,7 @@ phases:
       - echo Logging in to Amazon ECR...
       - aws --version
       - $(aws ecr get-login --region $AWS_DEFAULT_REGION --no-include-email)
-      - REPOSITORY_URI=936867263904.dkr.ecr.us-gov-west-1.amazonaws.com/cyber-eval
+      - REPOSITORY_URI=${REPLACE_WITH-AWS_ACCOUNTID}.dkr.ecr.us-gov-west-1.amazonaws.com/cyber-eval
       - COMMIT_HASH=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -c 1-7)
       - IMAGE_TAG=${COMMIT_HASH:=dev}
   build:

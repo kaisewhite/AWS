@@ -5,4 +5,4 @@ A buildspec is a collection of build commands and related settings, in YAML form
 | Filename         | Description / URL                                                                                                                                    |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `DeployCDK.yaml` | [CDK commands to synthesize and deploy a stack using CodePipeline/Codebuild](https://github.com/kaisewhite/AWS/blob/master/Buildspec/DeployCDK.yaml) |
-| `PushToECR.yaml` | [Dockerizing a web application](https://github.com/kaisewhite/AWS/blob/master/Buildspec/PushToECR.yaml)                                              |
+| `PushToECR.yaml` | [Dockerizing a web application in AWS CodeBuild/CodeCommit](https://github.com/kaisewhite/AWS/blob/master/Buildspec/PushToECR.yaml)                  |

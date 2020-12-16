@@ -6,7 +6,7 @@ phases:
       # present in the root directory of the package
       # (`cdk init app --language=typescript` would have created one for you)
       - npm install
-      #- npm install -g aws-cdk
+      - npm install -g aws-cdk
       #- npm install -g typescript
       - cdk --version
   build:
