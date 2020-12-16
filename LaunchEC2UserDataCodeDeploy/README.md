@@ -3,17 +3,10 @@
 ### Step 1: Create an IAM instance profile
 
 Create a const called `userData`. You'll need to wrap your user data in use `cdk.Fn.base64` otherwise you'll build fails with "Invalid BASE64 encoding of user data" error. The relevant YAML output looks like
+You can just paste in the powershell commands in `powershell.ps`. I left them out to keep the example clean
 
 ```
-const userData = cdk.Fn.base64(`<powershell>
-Set-ExecutionPolicy RemoteSigned -Force
-Import-Module AWSPowerShell
-$REGION = (ConvertFrom-Json (Invoke-WebRequest -Uri http://169.254.169.254/latest/dynamic/instance-identity/document -UseBasicParsing).Content).region
-New-Item -Path c:\temp -ItemType "directory" -Force
-powershell.exe -Command Read-S3Object -BucketName aws-codedeploy-$REGION -Key latest/codedeploy-agent-updater.msi -File c:\temp\codedeploy-agent-updater.msi
-// Start-Sleep -Seconds 30 *optional
-c:\temp\codedeploy-agent-updater.msi /quiet /l c:\temp\host-agent-updater-log.txt
-</powershell>`);
+const userData = cdk.Fn.base64(`COPY AND PASTE IN POWERSHELL COMMANDS`);
 ```
 
 ### Step 2: Verify that the profile has the correct access permissions
