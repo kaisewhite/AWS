@@ -13,7 +13,7 @@ const userData = cdk.Fn.base64(`COPY AND PASTE IN POWERSHELL COMMANDS`);
 
 We need to create an IAM role and an instance profile.
 
-````
+```
 const CodeDeployEC2IAMRole = new iam.CfnRole(this, "CodeDeployEC2IAMRole", {
       path: "/",
       roleName: "CodeDeployEC2Role",
@@ -54,4 +54,7 @@ Create the IAM instance profile and reference the role we just created.
 [How can I use launch configurations to automatically install the AWS CodeDeploy agent on an Amazon EC2 Windows instance?](https://aws.amazon.com/premiumsupport/knowledge-center/codedeploy-launch-config-windows/)
 
 [Configure an Amazon EC2 instance to work with CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-ec2-configure.html)
-````
+
+```
+
+```
