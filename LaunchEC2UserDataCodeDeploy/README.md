@@ -31,7 +31,7 @@ const CodeDeployEC2IAMRole = new iam.CfnRole(this, "CodeDeployEC2IAMRole", {
         ],
       },
       maxSessionDuration: 3600,
-      managedPolicyArns: ["arn:aws-AWS::Region:iam::aws:policy/AmazonS3FullAccess", "arn:aws-AWS::Region:iam::aws:policy/CloudWatchAgentServerPolicy"],
+      managedPolicyArns: ["arn:aws-us-east-1:iam::aws:policy/AmazonS3FullAccess", "arn:aws-us-east-1:iam::aws:policy/CloudWatchAgentServerPolicy"],
       description: "Allows EC2 instances to call AWS services on your behalf. s3 and cloudwatch",
     });
 ```
@@ -47,7 +47,7 @@ Create the IAM instance profile and reference the role we just created.
 
 ```
 
-### Step 3: Attach the IAM instance
+### Step 3: Create the EC2 Instance and attach the IAM instance and UserData
 
 ```
     const EC2Instance = new ec2.CfnInstance(this, "EC2Instance", {
@@ -57,6 +57,8 @@ Create the IAM instance profile and reference the role we just created.
         userData: userData,
 });
 ```
+
+#### For the full example you can open up `index.ts`
 
 ## Resources
 
