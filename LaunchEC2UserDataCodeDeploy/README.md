@@ -58,7 +58,7 @@ Create the IAM instance profile and reference the role we just created.
 });
 ```
 
-#### For the full example you can open up `index.ts`
+### For the full example you can open up `index.ts`
 
 ## Resources
 
