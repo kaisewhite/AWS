@@ -49,12 +49,17 @@ Create the IAM instance profile and reference the role we just created.
 
 ### Step 3: Attach the IAM instance
 
+```
+    const EC2Instance = new ec2.CfnInstance(this, "EC2Instance", {
+        imageId: "ami-0eb5d7d784da26c19", //FROM AN EXISTING IMAGE
+        instanceType: "t2.medium",
+        iamInstanceProfile: CodeDeployEC2IAMRole.ref,
+        userData: userData,
+});
+```
+
 ## Resources
 
 [How can I use launch configurations to automatically install the AWS CodeDeploy agent on an Amazon EC2 Windows instance?](https://aws.amazon.com/premiumsupport/knowledge-center/codedeploy-launch-config-windows/)
 
 [Configure an Amazon EC2 instance to work with CodeDeploy](https://docs.aws.amazon.com/codedeploy/latest/userguide/instances-ec2-configure.html)
-
-```
-
-```
