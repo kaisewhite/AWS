@@ -16,6 +16,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Accessing SSM parameters in NodeJS](https://github.com/kaisewhite/AWS/tree/master/SystemsManagerParameterStore)                                | Parameter Store          | `NodeJS`     |
 | [Lambda post authentication trigger inserts data into SQL Server Database](https://github.com/kaisewhite/AWS/tree/master/Lambda-RDS)            | Lambda & RDS MSSQL       | `NodeJS`     |
 | [Insert Athena query results into MySQL database](https://github.com/kaisewhite/AWS/tree/master/LambdaAthenaMySQL)                              | Lambda, Athena, & MySQL  | `Python`     |
+| [Read CSV from S3 Bucket and Insert into RDS MySQL](https://github.com/kaisewhite/AWS/tree/master/LambdaCSVUpsertMySQL)                         | Lambda, S3, & MySQL      | `Python`     |
 | [CodeCommit Resources](https://github.com/kaisewhite/AWS/tree/master/CodeCommit)                                                                | CodeCommit               | ``           |
 | [Configure an Amazon EC2 instance to work with CodeDeploy using CDK](https://github.com/kaisewhite/AWS/tree/master/LaunchEC2UserDataCodeDeploy) | EC2 & CodeDeploy         | `TypeScript` |
 
