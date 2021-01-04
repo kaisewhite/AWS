@@ -7,14 +7,10 @@ import sys
 import logging
 import json
 import pprint
-# import rds_config
 import pymysql
 import uuid
 from urllib.parse import urlparse
 from urllib.parse import unquote
-
-# from urlparse import urlparse
-# import mysql.connector
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
