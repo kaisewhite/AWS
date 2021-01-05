@@ -13,7 +13,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [How to easily clone CodeCommit Repos](https://github.com/kaisewhite/Easily-Clone-CodeCommit-Repos)                                   | CodeCommit                    | `Command-Line` |
 | [Authentication for ReactJS using AWS Cognito](https://github.com/kaisewhite/Cognito-Authentication-With-ReactJS)                     | Cognito                       | `JavaScript`   |
 | [AWS Cognito Post Authentication Lambda - Insert data to MSSQL](https://github.com/kaisewhite/AWS-Cognito-Post-Authentication-Lambda) | Cognito                       | `NodeJS`       |
-| []()                                                                                                                                  |                               | ``             |
+| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)   | Athena / RDS / Lambda         | `Python`       |
 
 ## Resources
 
