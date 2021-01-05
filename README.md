@@ -4,9 +4,16 @@
 
 AWS's API documentation can sometimes be like peeling an onion so here are a few code snippets of how to access different resources in AWS using languages like JavaScript, TypeScript, NodeJS, Python, etc....
 
-| Description / URL                                                                                        | AWS Resource   | Langauge |
-| -------------------------------------------------------------------------------------------------------- | -------------- | -------- |
-| [Several buildspec.yaml files for different codebuild projects](https://github.com/kaisewhite/BuildSpec) | Buildspec.yaml | `yaml`   |
+| Description / URL                                                                                                                     | AWS Resource                  | Langauge       |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------------- |
+| [Several buildspec.yaml files for different codebuild projects](https://github.com/kaisewhite/BuildSpec)                              | BuildSpec Files               | `yaml`         |
+| [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)      | CloudWatch Synthetic Canaries | `TypeScript`   |
+| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                      | Cloud Development Kit         | `Python`       |
+| [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | Cloud Development Kit         | `TypeScript`   |
+| [How to easily clone CodeCommit Repos](https://github.com/kaisewhite/Easily-Clone-CodeCommit-Repos)                                   | CodeCommit                    | `Command-Line` |
+| [Authentication for ReactJS using AWS Cognito](https://github.com/kaisewhite/Cognito-Authentication-With-ReactJS)                     | Cognito                       | `JavaScript`   |
+| [AWS Cognito Post Authentication Lambda - Insert data to MSSQL](https://github.com/kaisewhite/AWS-Cognito-Post-Authentication-Lambda) | Cognito                       | `NodeJS`       |
+| []()                                                                                                                                  |                               | ``             |
 
 ## Resources
 
