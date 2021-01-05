@@ -14,57 +14,13 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Authentication for ReactJS using AWS Cognito](https://github.com/kaisewhite/Cognito-Authentication-With-ReactJS)                     | Cognito                       | `JavaScript`   |
 | [AWS Cognito Post Authentication Lambda - Insert data to MSSQL](https://github.com/kaisewhite/AWS-Cognito-Post-Authentication-Lambda) | Cognito                       | `NodeJS`       |
 | [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)   | Athena / RDS / Lambda         | `Python`       |
+| [How to build/pull/push ECR images using different AWS accounts](https://github.com/kaisewhite/Push-ECR-Images-To-Multiple-Accounts)  | Elastic Container Registry    | `Command-Line` |
+| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)            | Lambda / RDS / S3             | `Python`       |
+| []()                                                                                                                                  |                               | ``             |
+| []()                                                                                                                                  |                               | ``             |
+| []()                                                                                                                                  |                               | ``             |
 
 ## Resources
 
 - [This package provides a simple method for pushing and pulling from AWS CodeCommit](https://github.com/aws/git-remote-codecommit)
 - [A credential helper for the Docker daemon that makes it easier to use Amazon Elastic Container Registry](https://github.com/awslabs/amazon-ecr-credential-helper)
-
-## How to build/pull/push ECR images using different accounts
-
-Install [amazon-ecr-credential-helper](https://github.com/awslabs/amazon-ecr-credential-helper)
-
-1. Generate Auth Credentials
-
-```
-aws ecr get-login-password --region ${REGION} --profile ${PROFILE} | docker login --username AWS --password-stdin ${ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com
-```
-
-2. Build the image
-
-```
-docker build -f ./Dockerfile --build-arg ${ARGUMENT} -t ${ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com/${REPOSITORYNAME}:${IMAGETAG} .
-```
-
-3. Push the image to ECR
-
-```
-   AWS_PROFILE=${PROFILE} docker push ${ACCOUNT_ID}.dkr.ecr.us-east-1.amazonaws.com/${REPOSITORYNAME}:${IMAGETAG}
-```
-
-Sample ~ ./docker/config.json
-
-```
-{
-  "experimental" : "enabled",
-  "HttpHeaders" : {
-    "User-Agent" : "Docker-Client/19.03.13-beta2 (darwin)"
-  },
-  "auths" : {
-    "xxxx.dkr.ecr.us-east-1.amazonaws.com" : {
-    },
-    "xxxx2.dkr.ecr.us-east-2.amazonaws.com" : {
-    },
-    "https://index.docker.io/v1/" : {
-    }
-  },
-  "stackOrchestrator" : "kubernetes",
-  "credsStore" : "desktop",
-  "credHelpers": {
-    "xxxx.dkr.ecr.us-east-1.amazonaws.com": "ecr-login",
-    "xxxx2.dkr.ecr.us-east-2.amazonaws.com": "ecr-login",
-    "https://index.docker.io/v1/": "desktop",
-
-  }
-}
-```
