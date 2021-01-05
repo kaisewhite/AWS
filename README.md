@@ -16,9 +16,9 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)   | Athena / RDS / Lambda         | `Python`       |
 | [How to build/pull/push ECR images using different AWS accounts](https://github.com/kaisewhite/Push-ECR-Images-To-Multiple-Accounts)  | Elastic Container Registry    | `Command-Line` |
 | [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)            | Lambda / RDS / S3             | `Python`       |
-| []()                                                                                                                                  |                               | ``             |
-| []()                                                                                                                                  |                               | ``             |
-| []()                                                                                                                                  |                               | ``             |
+| [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | Cloud Development Kit         | `TypeScript`   |
+| [How to retrieve your AWS AccountID in NodeJS](https://github.com/kaisewhite/Security-Token-Service-Example-With-NodeJS)              | Security Token Service        | `NodeJS`       |
+| [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store               | `NodeJS`       |
 
 ## Resources
 
