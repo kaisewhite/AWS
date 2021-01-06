@@ -19,6 +19,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | Cloud Development Kit         | `TypeScript`   |
 | [How to retrieve your AWS AccountID in NodeJS](https://github.com/kaisewhite/Security-Token-Service-Example-With-NodeJS)              | Security Token Service        | `NodeJS`       |
 | [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store               | `NodeJS`       |
+| [Insert CloudWatch Logs into an RDS instance (SQL Server)](https://github.com/kaisewhite/Insert-CloudWatch-Logs-Into-RDS)             | Lambda / RDS                  | `NodeJS`       |
 
 ## Resources
 
