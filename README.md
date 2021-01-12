@@ -20,6 +20,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [How to retrieve your AWS AccountID in NodeJS](https://github.com/kaisewhite/Security-Token-Service-Example-With-NodeJS)              | Security Token Service        | `NodeJS`       |
 | [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store               | `NodeJS`       |
 | [Insert CloudWatch Logs into an RDS instance (SQL Server)](https://github.com/kaisewhite/Insert-CloudWatch-Logs-Into-RDS)             | Lambda / RDS                  | `NodeJS`       |
+| [How To Access AWS Secrets Manager With NodeJS & Lambda](https://github.com/kaisewhite/AWS-Secrets-Manager-with-Node)                 | Secrets Manager / Lambda      | `NodeJS`       |
 
 ## Resources
 
