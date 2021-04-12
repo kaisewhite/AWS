@@ -21,8 +21,9 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store               | `NodeJS`       |
 | [Insert CloudWatch Logs into an RDS instance (SQL Server)](https://github.com/kaisewhite/Insert-CloudWatch-Logs-Into-RDS)             | Lambda / RDS                  | `NodeJS`       |
 | [How To Access AWS Secrets Manager With NodeJS & Lambda](https://github.com/kaisewhite/AWS-Secrets-Manager-with-Node)                 | Secrets Manager / Lambda      | `NodeJS`       |
-| [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | CDK / IAM                     | `TypeScript`   |
+| [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | Cloud Development Kit         | `TypeScript`   |
 | [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                    | IAM / Lambda                  | `Python`       |
+| [Deploy Containerized Micro Services using Docker and ECS Fargate](https://github.com/kaisewhite/Deploy-Micro-Services-Using-Fargate) | Cloud Development Kit         | `TypeScript`   |
 
 ## Resources
 
