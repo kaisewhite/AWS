@@ -24,6 +24,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | Cloud Development Kit         | `TypeScript`   |
 | [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                    | IAM / Lambda                  | `Python`       |
 | [Deploy Containerized Micro Services using Docker and ECS Fargate](https://github.com/kaisewhite/Deploy-Micro-Services-Using-Fargate) | Cloud Development Kit         | `TypeScript`   |
+| [How to create a CodePipeline for Cross Account Deployments](https://github.com/kaisewhite/cross-account-deployment)                  | Cloud Development Kit         | `TypeScript`   |
 
 ## Resources
 
