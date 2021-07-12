@@ -6,14 +6,15 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 
 ## Python Projects
 
-| Description / URL | AWS Resource | Langauge |
-| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/???????) | ECR | `Python` |
-| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples) | CDK | `Python` |
-| [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries) | CloudWatch Synthetic Canaries | `TypeScript` |
-| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python` |
-| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys) | IAM / Lambda | `Python` |
-| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL) | Lambda / RDS / S3 | `Python` |
-| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS) | Athena / RDS / Lambda | `Python` |
+| Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------ |
+| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/???????)                                                                   | ECR                           | `Python`     |
+| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python`     |
+| [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)                                                          | CloudWatch Synthetic Canaries | `TypeScript` |
+| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python`     |
+| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python`     |
+| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python`     |
+| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python`     |
 
 ## JavaScript Projects
 
@@ -33,9 +34,10 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 
 ## Other Languages
 
-| Description / URL | AWS Resource | Langauge |
-| [How to easily clone CodeCommit Repos](https://github.com/kaisewhite/Easily-Clone-CodeCommit-Repos) | CodeCommit | `Command-Line` |
-| [Several buildspec.yaml files for different codebuild projects](https://github.com/kaisewhite/BuildSpec) | BuildSpec Files | `yaml` |
+| Description / URL                                                                                                                    | AWS Resource               | Langauge       |
+| ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- | -------------- |
+| [How to easily clone CodeCommit Repos](https://github.com/kaisewhite/Easily-Clone-CodeCommit-Repos)                                  | CodeCommit                 | `Command-Line` |
+| [Several buildspec.yaml files for different codebuild projects](https://github.com/kaisewhite/BuildSpec)                             | BuildSpec Files            | `yaml`         |
 | [How to build/pull/push ECR images using different AWS accounts](https://github.com/kaisewhite/Push-ECR-Images-To-Multiple-Accounts) | Elastic Container Registry | `Command-Line` |
 
 ## Resources
