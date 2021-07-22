@@ -6,31 +6,31 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 
 ## Python Projects
 
-| Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge     |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------ |
-| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/???????)                                                                   | ECR                           | `Python`     |
-| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python`     |
-| [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)                                                          | CloudWatch Synthetic Canaries | `TypeScript` |
-| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python`     |
-| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python`     |
-| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python`     |
-| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python`     |
+| Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------- |
+| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/ECR-Scan-Findings-Generator)                                               | ECR                           | `Python` |
+| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python` |
+| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python` |
+| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python` |
+| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python` |
+| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python` |
 
 ## JavaScript Projects
 
-| Description / URL                                                                                                                     | AWS Resource             | Langauge     |
-| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------ |
-| [Authentication for ReactJS using AWS Cognito](https://github.com/kaisewhite/Cognito-Authentication-With-ReactJS)                     | Cognito                  | `JavaScript` |
-| [AWS Cognito Post Authentication Lambda - Insert data to MSSQL](https://github.com/kaisewhite/AWS-Cognito-Post-Authentication-Lambda) | Cognito                  | `NodeJS`     |
-| [How to retrieve your AWS AccountID in NodeJS](https://github.com/kaisewhite/Security-Token-Service-Example-With-NodeJS)              | Security Token Service   | `NodeJS`     |
-| [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store          | `NodeJS`     |
-| [Insert CloudWatch Logs into an RDS instance (SQL Server)](https://github.com/kaisewhite/Insert-CloudWatch-Logs-Into-RDS)             | Lambda / RDS             | `NodeJS`     |
-| [How To Access AWS Secrets Manager With NodeJS & Lambda](https://github.com/kaisewhite/AWS-Secrets-Manager-with-Node)                 | Secrets Manager / Lambda | `NodeJS`     |
-| [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | CDK                      | `TypeScript` |
-| [Deploy Containerized Micro Services using Docker and ECS Fargate](https://github.com/kaisewhite/Deploy-Micro-Services-Using-Fargate) | CDK                      | `TypeScript` |
-| [How to create a CodePipeline for Cross Account Deployments](https://github.com/kaisewhite/cross-account-deployment)                  | CDK                      | `TypeScript` |
-| [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | CDK                      | `TypeScript` |
-| [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | CDK                      | `TypeScript` |
+| Description / URL                                                                                                                     | AWS Resource                  | Langauge     |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | ------------ |
+| [Authentication for ReactJS using AWS Cognito](https://github.com/kaisewhite/Cognito-Authentication-With-ReactJS)                     | Cognito                       | `JavaScript` |
+| [AWS Cognito Post Authentication Lambda - Insert data to MSSQL](https://github.com/kaisewhite/AWS-Cognito-Post-Authentication-Lambda) | Cognito                       | `NodeJS`     |
+| [How to retrieve your AWS AccountID in NodeJS](https://github.com/kaisewhite/Security-Token-Service-Example-With-NodeJS)              | Security Token Service        | `NodeJS`     |
+| [How to access AWS Parameter Store using NodeJS](https://github.com/kaisewhite/Access-AWS-Parameter-Store-NodeJS)                     | Parameter Store               | `NodeJS`     |
+| [Insert CloudWatch Logs into an RDS instance (SQL Server)](https://github.com/kaisewhite/Insert-CloudWatch-Logs-Into-RDS)             | Lambda / RDS                  | `NodeJS`     |
+| [How To Access AWS Secrets Manager With NodeJS & Lambda](https://github.com/kaisewhite/AWS-Secrets-Manager-with-Node)                 | Secrets Manager / Lambda      | `NodeJS`     |
+| [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | CDK                           | `TypeScript` |
+| [Deploy Containerized Micro Services using Docker and ECS Fargate](https://github.com/kaisewhite/Deploy-Micro-Services-Using-Fargate) | CDK                           | `TypeScript` |
+| [How to create a CodePipeline for Cross Account Deployments](https://github.com/kaisewhite/cross-account-deployment)                  | CDK                           | `TypeScript` |
+| [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | CDK                           | `TypeScript` |
+| [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | CDK                           | `TypeScript` |
+| [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)      | CloudWatch Synthetic Canaries | `TypeScript` |
 
 ## Other Languages
 
