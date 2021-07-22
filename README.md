@@ -4,17 +4,6 @@
 
 AWS's API documentation can sometimes be like peeling an onion so here are a few code snippets of how to access different resources in AWS using languages like JavaScript, TypeScript, NodeJS, Python, etc....
 
-## Python Projects
-
-| Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------- |
-| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/ECR-Scan-Findings-Generator)                                               | ECR                           | `Python` |
-| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python` |
-| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python` |
-| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python` |
-| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python` |
-| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python` |
-
 ## JavaScript Projects
 
 | Description / URL                                                                                                                     | AWS Resource                  | Langauge     |
@@ -31,6 +20,17 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | CDK                           | `TypeScript` |
 | [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | CDK                           | `TypeScript` |
 | [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)      | CloudWatch Synthetic Canaries | `TypeScript` |
+
+## Python Projects
+
+| Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------- |
+| [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/ECR-Scan-Findings-Generator)                                               | ECR                           | `Python` |
+| [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python` |
+| [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python` |
+| [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python` |
+| [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python` |
+| [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python` |
 
 ## Other Languages
 
