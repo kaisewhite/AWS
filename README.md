@@ -25,6 +25,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 
 | Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------- |
+| [How to mutate or update an existing bucket policy](https://github.com/kaisewhite/Append-S3-Bucket-Policy)                                                                                | ECR                           | `Python` |
 | [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/ECR-Scan-Findings-Generator)                                               | ECR                           | `Python` |
 | [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python` |
 | [How to create a centrlized codepipeline to deploy CloudWatch Synethetic Canaries to Multiple AWS Accounts](https://github.com/kaisewhite/CloudWatch-Synthetics-Cross-Account-Deployment) | CDK / CodePipeline / Canaries | `Python` |
