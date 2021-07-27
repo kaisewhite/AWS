@@ -17,7 +17,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [IAM Account Setup / Grant Access / Rotate Keys](https://github.com/kaisewhite/IAM-Account-Security-Setup)                            | CDK                           | `TypeScript` |
 | [Deploy Containerized Micro Services using Docker and ECS Fargate](https://github.com/kaisewhite/Deploy-Micro-Services-Using-Fargate) | CDK                           | `TypeScript` |
 | [How to create a CodePipeline for Cross Account Deployments](https://github.com/kaisewhite/cross-account-deployment)                  | CDK                           | `TypeScript` |
-| [Deploying Instance User Data with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                                | CDK                           | `TypeScript` |
+| [Deploying User Data (EC2 Instance) with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                          | CDK                           | `TypeScript` |
 | [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | CDK                           | `TypeScript` |
 | [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)      | CloudWatch Synthetic Canaries | `TypeScript` |
 
