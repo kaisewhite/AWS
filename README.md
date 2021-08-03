@@ -34,7 +34,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python` |
 | [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python` |
 
-## Other Languages
+## Other Projects
 
 | Description / URL                                                                                                                    | AWS Resource               | Langauge       |
 | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- | -------------- |
