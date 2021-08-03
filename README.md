@@ -25,7 +25,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 
 | Description / URL                                                                                                                                                                         | AWS Resource                  | Langauge |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------- |
-| [How to mutate or update an existing bucket policy](https://github.com/kaisewhite/Append-S3-Bucket-Policy)                                                                                | ECR                           | `Python` |
+| [How to append an existing bucket policy](https://github.com/kaisewhite/Append-S3-Bucket-Policy)                                                                                          | ECR                           | `Python` |
 | [How to iterate through a list of buckets and programmatically set Public Block on AWS S3 Buckets](https://github.com/kaisewhite/S3-Block-Public-Access)                                  | S3                            | `Python` |
 | [How to loop through ECR Repositories and save all image scan findings to a CSV](https://github.com/kaisewhite/ECR-Scan-Findings-Generator)                                               | ECR                           | `Python` |
 | [CDK Examples and Code Snippets](https://github.com/kaisewhite/AWS-CDK-Examples)                                                                                                          | CDK                           | `Python` |
