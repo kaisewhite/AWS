@@ -20,6 +20,7 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Deploying User Data (EC2 Instance) with CDK](https://github.com/kaisewhite/Deploying-EC2-UserData-With-CDK)                          | CDK                           | `TypeScript` |
 | [How to build nested stacks with CDK](https://github.com/kaisewhite/CDK-Nested-Stacks)                                                | CDK                           | `TypeScript` |
 | [How to build CloudWatch Synthetic Canaries using CDK & TypeScript](https://github.com/kaisewhite/CloudWatch-Synthetic-Canaries)      | CloudWatch Synthetic Canaries | `TypeScript` |
+| [Automating AWS IAM Security Checks with python and typescript](https://github.com/kaisewhite/Automating-IAM-Security-Checks)         | CDK                           | `TypeScript` |
 
 ## Python Projects
 
@@ -33,6 +34,8 @@ AWS's API documentation can sometimes be like peeling an onion so here are a few
 | [Check for Expired API Keys](https://github.com/kaisewhite/Check-Expired-API-Keys)                                                                                                        | IAM / Lambda                  | `Python` |
 | [Insert CSV results into AWS RDS MySQL using Lambda & Python](https://github.com/kaisewhite/Insert-CSV-from-S3-Into-MySQL)                                                                | Lambda / RDS / S3             | `Python` |
 | [Insert AWS Athena Query Results into RDS MySQL using AWS Lambda](https://github.com/kaisewhite/Upload-Athena-Query-Results-To-RDS)                                                       | Athena / RDS / Lambda         | `Python` |
+| [Using a Lambda function to execute Athena queries](https://github.com/kaisewhite/Execute-Athena-Queries-Via-Lambda)                                                                      | Athena / Lambda               | `Python` |
+| [Automating AWS IAM Security Checks with python](https://github.com/kaisewhite/Automating-IAM-Security-Checks/tree/main/CheckExpiredCredentials)                                          | Lambda                        | `Python` |
 
 ## Other Projects
 
